@@ -1,0 +1,203 @@
+.header {
+  background-color: rgb(8,9,11);
+  padding: 10px 40px;
+  border: none;
+  font-family: 'Segoe UI', sans-serif;
+          z-index: 1001;
+          position: relative
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+  z-index: 1001;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.logo {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0);
+  font-size: 24px;
+  font-weight: bold;
+  width: 180px;
+  background-size: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg width='285' height='52' viewBox='0 0 285 52' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M95.8351 12.7467C95.6139 5.16652 90.2074 0.0252008 82.3246 9.01284e-05C74.4424 -0.0250187 69.9851 5.19845 69.7621 12.7769C69.7611 12.8109 69.8131 12.7446 69.8183 12.7769H69.7621V38.7393C69.7621 46.6144 74.7667 52 82.8354 52C90.9041 52 95.8576 46.6144 95.8576 38.7393V12.7769H95.8352C95.8354 12.7669 95.8354 12.7569 95.8351 12.7467ZM91.0389 12.7769C91.0379 12.7667 91.0372 12.7565 91.0368 12.7461C90.931 10.1444 89.9244 5.20959 84.1617 4.5456V21.6125C84.1617 22.2095 83.6752 22.6935 83.0751 22.6935H82.2602C81.6602 22.6935 81.1737 22.2095 81.1737 21.6125V4.58617C75.7786 5.38578 74.7327 10.3719 74.6135 12.9138C74.6098 12.9916 74.6452 12.8473 74.6135 12.9138V38.7393C74.6135 41.2797 75.4306 47.529 82.8354 47.529C90.1891 47.529 91.0062 41.2797 91.0062 38.7393V12.7769H91.0389Z' fill='%23BCDA02'/%3E %3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M48.3771 40.8732C56.3436 40.8732 62.8292 34.4208 62.8292 26.4949C62.8292 18.5689 56.3436 12.1165 48.3771 12.1165C40.4105 12.1165 33.976 18.5689 33.976 26.4949C33.976 34.4208 40.3594 40.8732 48.3771 40.8732ZM48.3771 16.5875C54.0966 16.5875 57.9778 21.2617 57.9778 26.4949C57.9778 31.7788 54.0966 36.4022 48.3771 36.4022C42.6575 36.4022 38.8274 31.7788 38.8274 26.4949C38.8274 21.2617 42.6575 16.5875 48.3771 16.5875Z' fill='%23F3FFFE'/%3E %3Cpath d='M36.3762 46.8685V51.3395H60.378V46.8685H36.3762Z' fill='%23F3FFFE'/%3E %3Cpath d='M21.857 27.5618H4.85143V12.7261H0V51.3395H4.85143V32.0328H21.857V51.3395H26.7084V12.7261H21.857V27.5618Z' fill='%23F3FFFE'/%3E %3Cpath d='M101.061 51.3395C109.13 51.3395 114.084 45.9539 114.084 38.0789V25.6311C114.084 23.0908 114.901 17.1972 122.306 17.1972V12.7261C114.237 12.7261 109.232 18.0609 109.232 25.9868V38.4345C109.232 40.9749 108.466 46.8685 101.061 46.8685V51.3395Z' fill='%23F3FFFE'/%3E %3Cpath d='M127.819 12.7261H147.225V17.1972H132.67V34.624H144.773V39.095H132.67V46.8685H147.225V51.3395H127.819V12.7261Z' fill='%23F3FFFE'/%3E %3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M184.624 40.8732C192.591 40.8732 199.076 34.4208 199.076 26.4949C199.076 18.5689 192.591 12.1165 184.624 12.1165C176.658 12.1165 170.223 18.5689 170.223 26.4949C170.223 34.4208 176.606 40.8732 184.624 40.8732ZM184.624 16.5875C190.344 16.5875 194.225 21.2617 194.225 26.4949C194.225 31.7788 190.344 36.4022 184.624 36.4022C178.904 36.4022 175.074 31.7788 175.074 26.4949C175.074 21.2617 178.904 16.5875 184.624 16.5875Z' fill='%23F3FFFE'/%3E %3Cpath d='M172.623 46.8685V51.3395H196.625V46.8685H172.623Z' fill='%23F3FFFE'/%3E %3Cpath d='M206.315 12.7261H225.721V17.1972H211.167V34.624H223.321V39.095H211.167V51.3395H206.315V12.7261Z' fill='%23F3FFFE'/%3E %3Cpath d='M255.256 12.7261H250.405V51.3395H255.256V12.7261Z' fill='%23F3FFFE'/%3E %3Cpath d='M260.947 17.1972V12.7261H285V17.1972H275.399V51.3395H270.548V17.1972H260.947Z' fill='%23F3FFFE'/%3E %3C/svg%3E ");
+}
+
+.logoText {
+  letter-spacing: 2px;
+}
+
+.clip {
+  color: #c4ff00;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+
+.icon {
+  width: 10px;
+  height: 10px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.catalogButton {
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: none;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+
+}
+
+#img1 #img2 {
+    width: 20px;
+    height: 20px;
+}
+
+.username {
+  color: #c4ff00;
+  margin-left:-10px
+}
+
+.login {
+    text-decoration-line: none; 
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    gap:10px;
+    font-size: 14.5px;
+    white-space: nowrap;
+        font-weight: 400;
+         font-family: 'Poppins', sans-serif;
+}
+
+
+.catalog {
+    text-decoration-line: none; 
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 7px 15px;
+    font-size: 13px;
+    font-weight: 450;
+     font-family: 'Poppins', sans-serif;
+}
+.catalog:hover {
+
+    background-color: #fff;
+    color: rgb(8,9,11);
+}
+
+.iconSmall {
+  width: 20px;
+  height: 20px;
+}
+
+.logout_button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.search_div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  position: relative;
+    width: 20%;
+}
+
+.search_div:hover {
+
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+
+.search {
+  border: none;
+  outline: none;
+}
+
+
+.search_results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  z-index: 1001;
+  margin-top: 5px;
+}
+
+.search_result_item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #eee;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.search_result_item:hover {
+  background-image: radial-gradient(rgb(8,9,11), #cdcdcd2d);
+}
+
+.search_result_image {
+  width: 40px;
+  height: 60px;
+  object-fit: contain;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.search_block {
+  border-radius: 10px;
+}
+
+.search_result_title {
+    font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+.search_result_price {
+  color: #666;
+  font-size: 13px;
+  border-radius: 15px;
+}
+
+.search_loading, .search_no_results {
+  padding: 15px;
+  text-align: center;
+  color: #666;
+}

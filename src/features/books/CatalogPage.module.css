@@ -1,0 +1,16 @@
+.headMain {
+width: 39px;
+height: 24px;
+
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+color: #E2EFEE;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
